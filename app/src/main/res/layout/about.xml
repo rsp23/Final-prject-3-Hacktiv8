@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp">
+
+    <ImageView
+        android:id="@+id/user_icon"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:src="@drawable/user_icon" />
+    <TextView
+        android:id="@+id/text_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/user_icon"
+        android:layout_marginTop="10dp"
+        android:text="Team Member 2"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/text_hacktive"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_member"
+        android:layout_marginTop="10dp"
+        android:text="Kampus Merdeka Haxktive8"
+        android:textSize="25dp"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_hacktive"
+        android:layout_marginTop="10dp"
+        android:text="University"
+        android:textAlignment="center"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/instagram_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_icons8_instagram" />
+    <ImageView
+        android:id="@+id/opera_icon"
+        android:src="@drawable/ic_icons8_opera"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/instagram_icon"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/linked_icon"
+        android:src="@drawable/ic_icons8_linkedin"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toRightOf="@+id/opera_icon"
+        android:layout_alignParentBottom="true"/>
+    <ImageView
+        android:id="@+id/github_icon"
+        android:src="@drawable/ic_icons8_github"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_toLeftOf="@+id/facebook_icon"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:id="@+id/facebook_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/twitter_icon"
+        android:src="@drawable/ic_icons8_facebook" />
+
+    <ImageView
+        android:id="@+id/twitter_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:src="@drawable/ic_icons8_twitter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/linked_icon"
+        android:text="Connect with us:"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:layout_marginBottom="35dp"/>
+
+
+
+</RelativeLayout>

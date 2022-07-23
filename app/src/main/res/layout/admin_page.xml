@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@drawable/adminhomepage">
+
+    <Button
+        android:id="@+id/bAddStaff"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:text="ADD STAFF"
+        android:backgroundTint="#A366ED"/>
+
+    <Button
+        android:id="@+id/bAddStock"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_below="@+id/bAddStaff"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="40dp"
+        android:text="ADD STOK"
+        android:backgroundTint="#A366ED"/>
+
+
+</RelativeLayout>
